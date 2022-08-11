@@ -11,18 +11,18 @@ let  convercao = 'dominio';
 convercao = 'google'
 console.log("https//:www." +convercao+ ".com.br")
 
-// function retornarFrase(frase) {
-//     return frase + "!";
-// }
+function retornarFrase(frase) {
+    return frase + "!";
+}
 
-// console.log(retornarFrase("Olá"));
+console.log(retornarFrase("Olá"));
 
-// function valorDaHoraDeTrabalho (salarioMensal) {
-//     const valorDaHoraDeTrabalho = salarioMensal/160;
-//     return "O valor da sua hora de trabalho é de R$ " + valorDaHoraDeTrabalho.toFixed(2);
-// }
+function valorDaHoraDeTrabalho (salario) {
+    const valorDaHoraDeTrabalho = salario/160;
+    return "Você ganha R$" + valorDaHoraDeTrabalho.toFixed(2)+ "pela de trabalho." ;
+}
 
-// console.log(valorDaHoraDeTrabalho());
+console.log(valorDaHoraDeTrabalho(1400));
 
 // function letraMaiuscula (frase) {
 //     return "Escrevemos isso: '" + frase + "' e obtemos isso: '" + frase.toUpperCase() + "'";
