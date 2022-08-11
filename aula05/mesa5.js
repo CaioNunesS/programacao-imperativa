@@ -19,27 +19,27 @@ console.log(retornarFrase("Olá"));
 
 function valorDaHoraDeTrabalho (salario) {
     const valorDaHoraDeTrabalho = salario/160;
-    return "Você ganha R$" + valorDaHoraDeTrabalho.toFixed(2)+ "pela de trabalho." ;
+    return "Você ganha R$" + valorDaHoraDeTrabalho.toFixed(2)+ "pela sua hora de trabalho." ;
 }
 
 console.log(valorDaHoraDeTrabalho(1400));
 
-// function letraMaiuscula (frase) {
-//     return "Escrevemos isso: '" + frase + "' e obtemos isso: '" + frase.toUpperCase() + "'";
-// }
+function letraMaiuscula (frase) {
+    return "Escrevemos isso: '" + frase + "' e temos isso: '" + frase.toUpperCase() + "'";
+}
 
-// console.log(letraMaiuscula("olá mundo"));
+console.log(letraMaiuscula("olá mundo"));
 
-// function tipoDeDado(dadoParaValidar) {
-//     return " O dado informado foi " + dadoParaValidar + ", ele é um(a): " + typeof dadoParaValidar;
-// }
+function tipoDeDado(dadoParaValidar) {
+    return " O dado informado foi " + dadoParaValidar + ", ele é: " + typeof dadoParaValidar;
+}
 
-// console.log(tipoDeDado(7));
+console.log(tipoDeDado(1));
 
-// console.log(tipoDeDado("c"));
+console.log(tipoDeDado("bola"));
 
-// function calcularCirculo (raio) {
-//     return "A circunferência é de: " + (2* Math.PI * raio).toFixed(2);
-// }
+function calcularCircunferencia (raio) {
+    return "A circunferência é de: " + (2* Math.PI * raio).toFixed(2);
+}
 
-// console.log(calcularCirculo(6));
+console.log(calcularCircunferencia(2));
