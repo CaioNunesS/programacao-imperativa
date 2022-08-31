@@ -1,8 +1,16 @@
-let nome = "Jose";
-let sobrenome = "da Silva";
-let peso =83.5;
-let altura = 1.70;
-let idade = 27;
-let IMC = peso/(altura * altura);
+let nome = ["Jose"]  ["pedro"];
+let sobrenome = [" da Silva"] [" santana"];
+let peso =[83.5, 60];
+let altura = [1.70, 1.60];
+let idade = [27, 50];
+let planoDeSaude = null;
+let resultado = 0;
 
-console.log(IMC);
+function imcPaciente([]){
+for(let i = 0; i < nome.length;i++ ){   
+resultado = peso[i]/(altura[i] * altura[i])
+    paciente = resultado 
+console.log("O paciente " + nome[i] +sobrenome[i] + resultado);
+}
+}
+imcPaciente([])
