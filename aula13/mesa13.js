@@ -89,3 +89,6 @@ console.log(listaContas[0]);
 //     }
 // }
 // console.log(banco.consultarCliente("Thomasin Latour"))
+
+
+
